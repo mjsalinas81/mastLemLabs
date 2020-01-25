@@ -1,0 +1,10 @@
+$foreColor: #d1d408;
+
+.holaMundoBox{
+    background-color: #ddf3c1;
+    color: $foreColor;
+    border: 8px solid $foreColor;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}

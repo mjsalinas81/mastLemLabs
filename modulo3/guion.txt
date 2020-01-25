@@ -1,0 +1,71 @@
+-Crear carpeta: webpacklab (que el nombre sea distinto a webpack)
+-Abrir carpeta en code
+-Inicializar proyecto: npm init -y => crea un package.json
+-Instalar webpack y herramienta de comandos de webpack: npm install webpack webpack-cli --save-dev
+*-Modificar package.json : 
+	"build": "webpack --mode development"
+	"start": "webpack --mode development"
+
+-Instalar babel: npm install @babel/cli @babel/core @babel/preset-env --save-dev
+-Instalar babel-loader: npm install babel-loader --save-dev
+-Configurar .babelrc
+-Crear y configurar webpack.config.js
+
+-Instalar devserver: npm install webpack-dev-server --save-dev
+-Instalar plugin webpack: npm install html-webpack-plugin --save-dev
+-Instalar plugin estilos css: npm install style-loader css-loader --save-dev
+-Instalar plugin borrado dist: npm install rimraf --save-dev
+-Instalar plugin mini-css: npm install mini-css-extract-plugin --save-dev
+-Instalar plugin sas : npm install sass sass-loader --save-dev
+-Instalar plugin : npm install url-loader file-loader -save-dev   **(url-loader utiliza file-loader por dentro)
+-Instalar plugin para gestión imágenes: npm install html-loader --save-dev
+
+-Instalar react : npm install react react-dom --save  
+-Soporte de tipos para react: npm install @types/react @types/react-dom --save-dev
+-Instalar ts: npm install typescript --save-dev
+              npm install awesome-typescript-loader --save-dev
+
+-Para que babel sepa transformar react: npm install @babel/preset-react --save-dev
+
+-Para gestionar distintos entornos: npm install webpack-merge --save-dev
+-Para gestionar las variables de entorno: npm install dotenv-webpack --save-dev
+-Para ver analizar bundle: npm install webpack-bundle-analyzer --save-dev
+
+----------------------
+base.webpack.config.js
+dev.webpack.config.js
+output -> dev y prod . chunkhash solo en produccion. MiniCssExtractPlugin
+build:dev => npm run build:dev
+build:prod =>npm run build:prod
+build:perf
+--------------------------------------------
+perf.webpack.config.js
+------
+* Inline solución solo para depurar
+devtool: 'inline-source-map',
+"compilerOptions": {
+    ...
+    "sourceMap": true,
+    ...
+  },
+
+* en webpack.config.js puede ser que falte exclude: /node_modules/
+* <img src="./src/content/logo_2.png"/>
+-npm start => en dist genera bundle.js
+-npm run build => para que regenere el bundle
+ ----------------------------
+Ejemplo Instalar Polifile: npm install regenerator-runtime --save
+
+
+*Instalar lite-server: desde \dist> npm install lite-server -g
+ \dist> lite-server
+
+
+-Crear carpeta src
+*-Crear index.js
+- npm run build => crea carpeta dist
+
+
+
+
+

@@ -1,0 +1,6 @@
+npm init -y
+npm install parcel-bundler --save-dev
+npm install rimraf --save-dev
+npm install @types/react @types/react-dom --save-dev
+
+

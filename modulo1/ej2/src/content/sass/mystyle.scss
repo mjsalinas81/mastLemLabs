@@ -1,0 +1,65 @@
+@import 'themeb';
+
+
+.container{
+    display:flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.baseStyle{
+    background-color: $color-base;
+    height: 100px;
+    border:1px solid gray;
+    width: 10%;
+    text-align: center;
+    border-radius: $border-radius;
+
+}
+.importantStyle{
+    background-color: darken($color-base, 15%);
+    height: 100px;
+    border:1px solid gray;
+    width: 10%;
+    text-align: center;
+    border-radius: $border-radius;
+}
+
+.warningStyle{
+    background-color: lighten($color-base, 35%);
+    height: 100px;
+    border:1px solid gray;
+    width: 10%;
+    text-align: center;
+    border-radius: $border-radius;
+}
+
+.principalFontStyle{
+    font-family: $font-primary;
+    width: 10%;
+    text-align: center;
+}
+
+.secondaryFontStyle{
+    font-family: $font-secondary;
+    width: 10%;
+    text-align: center;
+}
+
+.boxShadowStyle{
+    box-shadow: $shadow-box;
+    height: 100px;
+    border:1px solid gray;
+    width: 10%;
+    text-align: center;
+    border-radius: $border-radius;
+}
+
+.container div{
+ 
+    display: flex;                
+    align-items:center;
+    justify-content:center;
+  
+}

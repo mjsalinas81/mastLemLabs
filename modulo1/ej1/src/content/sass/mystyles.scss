@@ -1,0 +1,112 @@
+$base-color-red:#DF0101;
+$base-color-green:#00FF40;
+$base-color-blue:#0000FF;
+
+.baseColor-red {
+    background: $base-color-red;
+    color:whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.baseColor-green {
+    background: $base-color-green;
+    color:whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.baseColor-blue {
+    background: $base-color-blue;
+    color:whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@for $i from 1 through 4 {
+
+    .lighten-red#{$i} {
+        background-color: lighten($base-color-red, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    };
+
+    .darken-red#{$i} {
+        background-color: darken($base-color-red, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .lighten-green#{$i} {
+        background-color: lighten($base-color-green, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    };
+
+    .darken-green#{$i} {
+        background-color: darken($base-color-green, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .lighten-blue#{$i} {
+        background-color: lighten($base-color-blue, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    };
+
+    .darken-blue#{$i} {
+        background-color: darken($base-color-blue, $i * 10%);
+        color:whitesmoke;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.paleta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,53 @@
+@import "reset";
+
+$max-width-screen:460px;
+
+.containerBar{
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: $max-width-screen) {
+        height: calc(100vh);
+        justify-content: space-between;
+      }
+}
+
+.headerBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5A9BC;
+    border: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    @media screen and (max-width: $max-width-screen) {
+            p:nth-child(2){
+                display: none;
+            }            
+      }
+}
+
+.rowBar{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end; 
+    
+}
+
+.itemBar{
+    width: 100%;
+    text-align: center;
+    font-size: 9px;
+    border: 3px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+    @media screen and (max-width: $max-width-screen) {
+        font-size: 5px;
+      }
+    
+    &:hover{
+        background: darkgray;
+    }
+}

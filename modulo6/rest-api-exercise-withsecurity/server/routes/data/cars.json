@@ -1,0 +1,110 @@
+[
+    {
+        "car_id": 1,
+        "name": "ABX",
+        "brand": "Tokiota",
+        "year_release": "1999"
+    },
+    {
+        "car_id": 2,
+        "name": "AZE",
+        "brand": "Tokiota",
+        "year_release": "1995"
+    },
+    {
+        "car_id": 3,
+        "name": "Colola",
+        "brand": "GIA",
+        "year_release": "2015"
+    },
+    {
+        "car_id": 57,
+        "name": "Maverick",
+        "brand": "Foo",
+        "year_release": "1965"
+    },
+    {
+        "car_id": 59,
+        "name": "Calel",
+        "brand": "HMI",
+        "year_release": "1975"
+    },
+    {
+        "car_id": 61,
+        "name": "Green Roaster",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 62,
+        "name": "zzz",
+        "brand": "lastZ",
+        "year_release": "2006"
+    },
+    {
+        "car_id": 63,
+        "name": "pololo",
+        "brand": "Chile",
+        "year_release": "1982"
+    },
+    {
+        "car_id": 64,
+        "name": "desdeAxios",
+        "brand": "axios",
+        "year_release": "2020"
+    },
+    {
+        "car_id": 65,
+        "name": "desdeFetch",
+        "brand": "fetch",
+        "year_release": "2020"
+    },
+    {
+        "car_id": 66,
+        "name": "dd2",
+        "brand": "Guatemala",
+        "year_release": "1982"
+    },
+    {
+        "car_id": 67,
+        "name": "Green Roaster2",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 68,
+        "name": "Green Roaster3",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 69
+    },
+    {
+        "car_id": 70
+    },
+    {
+        "car_id": 71,
+        "name": "Green Roaster4",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 72,
+        "name": "Green Roaster8",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 73,
+        "name": "Mercedes",
+        "brand": "Benz",
+        "year_release": "1955"
+    },
+    {
+        "car_id": 74,
+        "name": "Kia",
+        "brand": "Picanto",
+        "year_release": "2010"
+    }
+]
